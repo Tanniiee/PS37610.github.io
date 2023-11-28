@@ -1,0 +1,148 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: rgb(45, 93, 63);
+    color: #fff;
+    padding: 10px 0;
+    margin: 0 1px;
+}
+
+.header .contact-info {
+    text-align: left;
+}
+
+.header .account-info,
+.header .menu {
+    text-align: right;
+}
+
+.header .account-info a,
+.header .menu a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.container-fluid a:hover{
+    color: brown;
+}
+.main-navigation {
+    background-color: rgb(20, 121, 66);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1px;
+}
+
+.main-navigation img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-navigation .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-navigation .menu li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.main-navigation .cart {
+    text-align: right;
+    color: white;
+}
+.main-navigation a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+hr {
+    border-top: 1px solid #161a1e;
+}
+
+i:hover{
+    color: aqua;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5b636c;
+    color: white;      
+    padding: 5px 0;
+    align-items: center;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;
+}
+.payment-methods i{
+    padding: 10px;
+    font-size: 50px;
+}
+.row li{
+    list-style-type: none;
+}
+.btn{
+    border: 1px solid black;
+}
+
+.follow--menu{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+
+}
+.follow--menu a{
+    text-decoration: none;
+}
+.follow--menu li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.follow--menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .header .contact-info,
+    .header .account-info,
+    .header .menu,
+    .main-navigation .logo,
+    .main-navigation .cart,
+    .main-navigation .search-icon {
+        text-align: center;
+    }
+
+    .main-navigation .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+}
